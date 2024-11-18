@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Zoksh Pay - Crypto Payments Solution</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="Zoksh Pay - Crypto Payment Gateway" name="description" />
+        <meta content="zoksh, crypto, cryptocurrency, blockchain, bitcoin, ethereum, ploygon, solana, dogecoin, shopify, woo, wordpress" name="keywords" />
+        <meta content="" name="author" />
+        <link rel="icon" type="image/png" href="https://zoksh.com/images/favicon.png" />
+        <link rel="canonical" href="https://zoksh.com/" />
+	    <meta property="og:locale" content="en_US" />
+	    <meta property="og:type" content="website" />
+	    <meta property="og:title" content="Home - Zoksh - Crypto Payment Gateway" />
+	    <meta property="og:description" content="Zoksh is a non-custodial crypto payment solution that enables businesses to accept over 1000 currencies across 16 blockchains." />
+	    <meta property="og:url" content="https://zoksh.com/" />
+	    <meta property="og:site_name" content="Zoksh - Crypto Payment Gateway" />
+	    <meta property="og:image" content="https://zoksh.com/images/banner.jpg" />
+	    <meta name="twitter:card" content="summary_large_image" />
+	    <meta name="twitter:site" content="@zokshpay" />
+	    <meta name="twitter:label1" content="Est. reading time" />
+	    <meta name="twitter:data1" content="9 minutes" />
+
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+        <![endif]-->
+
+        <!-- CSS Files ================================================== -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link href="https://zoksh.com/css/animate.css" rel="stylesheet" type="text/css" />
+        <link href="https://zoksh.com/css/owl.carousel.css" rel="stylesheet" type="text/css" />
+        <link href="https://zoksh.com/css/owl.theme.css" rel="stylesheet" type="text/css" />
+        <link href="https://zoksh.com/css/owl.transitions.css" rel="stylesheet" type="text/css" />
+        <link href="https://zoksh.com/css/magnific-popup.css" rel="stylesheet" type="text/css" />
+        <link href="https://zoksh.com/css/jquery.countdown.css" rel="stylesheet" type="text/css" />
+        <link href="https://zoksh.com/css/style.css" rel="stylesheet" type="text/css" />
+        <link href="https://zoksh.com/css/custom.css" rel="stylesheet" type="text/css" />
+
+        <!-- color scheme -->
+        <link id="colors" href="https://zoksh.com/css/scheme.css" rel="stylesheet" type="text/css" />
+        <link href="https://zoksh.com/css/coloring.css" rel="stylesheet" type="text/css" />
+
+        <!-- MailChimp -->
+        <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <!-- header begin -->
+            <header class="scroll-light background-gradient">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="d-flex justify-content-between">
+                                <div class="align-self-center header-col-left">
+                                    <!-- logo begin -->
+                                    <div id="logo">
+                                        <a href="https://zoksh.com/">
+											                    <img class="header_nav" alt="Zoksh" height="32" src="https://zoksh.com/images/zoksh-logo-light.png" />
+										                    </a>
+                                    </div>
+                                    <!-- logo close -->
+                                </div>
+                                <div class="align-self-center ml-auto header-col-mid">
+                                    <!-- mainmenu begin -->
+                                    <ul id="mainmenu">
+                                      <li><a href="https://zoksh.com/wallet.html">Wallet</a></li>
+                                      <li><a href="https://zoksh.com/ramp.html">Ramp</a></li>
+                                      <li>
+                                          <a href="#">Features</a>
+                                          <ul>
+                                              <li><a href="https://zoksh.com/pay.html">Zoksh Pay</a></li>
+                                              <li><a href="#">Payment Link</a></li>
+                                              <li><a href="#">Invoicing</a></li>
+                                              <li><a href="#">Checkout</a></li>
+                                              <li><a href="#">Subscription</a></li>
+                                              <li><a href="#">Off-Ramp</a></li>
+                                          </ul>
+                                      </li>
+                                      <li><a href="https://zoksh.com/integrations.html">Integrations</a></li>
+                                      <li><a href="https://docs.zoksh.com/">Developer</a> </li>
+                                      <li><a href="https://zoksh.com/contact.html">Contact</a></li>
+                                          </ul>
+                                      </li>
+                                      <li><a href="https://zoksh.com/integrations.html">Integrations</a></li>
+                                      <li><a href="https://docs.zoksh.com/">Developer</a> </li>
+                                      <li><a href="https://zoksh.com/contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                                <div class="align-self-center ml-auto header-col-right">
+                                    <a class="btn btn-custom btn-light long" target="_blank" href="https://dashboard.zoksh.com/auth">Dashboard</a>
+                                    <span id="menu-btn"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- header close -->
+
+
+<style>
+      .labels tr td {font-weight: bold;}
+      .table-row {cursor: pointer;}
+      .label tr td label {display: block;}
+      [data-toggle="toggle"] {display: none;}
+      .hide {display: none;}
+      .arrow {margin-right: 5px;}
+      #table {font-family: "Roboto", Arial, Helvetica, sans-serif;border-collapse: collapse;width: 100%;}
+      #table td,#table th {border: 1px solid #ddd;padding: 8px;}
+      #table tr:nth-child(even) {background-color: #f2f2f2;}
+      #table tr:hover {background-color: #ddd;}
+      #table th {padding-top: 12px;padding-bottom: 12px;text-align: left;background-color: #115af5;color: white;}
+      input[type="text"] {width: 100%;padding: 12px 20px;margin: 8px 0;display: inline-block;border: 1px solid #ccc;border-radius: 4px;box-sizing: border-box;}
+      .search {display: flex;margin-right: 10px;}
+      .right {margin-right: 20px;}
+      .fiat-name {cursor: pointer;}
+      .skeleton_table_loader {background-color: #fff;color: #666;width: 100%;padding: 0;}
+      .skeleton_table_loader th {background: #f7f9fa;border-top: 1px solid #e5e5e5;border-bottom: 1px solid #e5e5e5;padding: 12px 10px;text-align: left;}
+      .skeleton_table_loader td {border-top: 0px solid #e5e5e5;border-bottom: 1px solid #e5e5e5;padding: 12px 10px;vertical-align: top;}
+      .skeleton_table_loader span {width: calc(100% - 5px);height: 15px;border-radius: 3px;background-image: linear-gradient(90deg, #ddd 0px, #e8e8e8 40px, #ddd 80px);background-size: 600px;animation: shine-lines-table 1.6s infinite linear;display: inline-block;min-width: 15px;}
+      .skeleton_table_loader span.sub-temp {width: calc(100% - 50%);margin-top: 5px;}
+      .skeleton_table_loader span.sub-temp-three {width: calc(100% - 70%);display: block;}
+      .col1 {width: 25px;}
+      .col2 {width: 60px;}
+      .col3 {width: 45px;}
+      .col4 {width: 344px;}
+      .col5 {width: 145px;}
+      .col6 {width: 113px;}
+      .col7 {width: 73px;}
+      .col8 {width: 160px;}
+      .col9 {width: 92px;}
+      @keyframes shine-lines-table { 0% {opacity: 0.4;} 40% {opacity: 0.8;} 100% {opacity: 0.4;} }
+    </style>
+
+<!-- content begin -->
+<div class="no-bottom no-top" id="content">
+  <div id="top"></div>
+              <!-- section begin -->
+              <section id="subheader" class="background-gradient background-pattern" style="margin-bottom: 50px; text-align: left;">
+                <div class="center-y relative" data-scroll-speed="4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 offset-md-2 text-center">
+              <h1 class="text-white">Supported Pairs</h1>
+              <p>Fiat to crypto pairs & payment methods supported by Zoksh Pay</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- section close -->  
+  <section class="no-top">
+    <div class="container">
+      <div class="search">
+        <div class="right">
+          <label for="fname">Search Fiats or Crypto</label>
+          <input type="text" placeholder="Search..." id="fiat" oninput="handleFiatChange()">
+        </div>
+      </div>
+      <table cellpadding="0" cellspacing="0" width="100%" class="skeleton_table_loader" id="skeleton-loading">
+        <tbody>
+          <tr>
+            <th class="col1"><span></span></th>
+            <th class="col4"><span></span></th>
+            <th class="col5"><span></span></th>
+          </tr>
+          <tr>
+            <td class="col1"><span></span></td>
+            <td class="col4"><span></span><span class="sub-temp"></span><span class="sub-temp sub-temp-three"></span></td>
+            <td class="col5"><span></span></td>
+          </tr>
+          <tr>
+            <td class="col1"><span></span></td>
+            <td class="col4"><span></span><span class="sub-temp"></span><span class="sub-temp sub-temp-three"></span></td>
+            <td class="col5"><span></span></td>
+          </tr>
+          <tr>
+            <td class="col1"><span></span></td>
+            <td class="col4"><span></span><span class="sub-temp"></span><span class="sub-temp sub-temp-three"></span></td>
+            <td class="col5"><span></span></td>
+          </tr>
+          <tr>
+            <td class="col1"><span></span></td>
+            <td class="col4"><span></span><span class="sub-temp"></span><span class="sub-temp sub-temp-three"></span></td>
+            <td class="col5"><span></span></td>
+          </tr>
+          <tr>
+            <td class="col1"><span></span></td>
+            <td class="col4"><span></span><span class="sub-temp"></span><span class="sub-temp sub-temp-three"></span></td>
+            <td class="col5"><span></span></td>
+          </tr>
+          <tr>
+            <td class="col1"><span></span></td>
+            <td class="col4"><span></span><span class="sub-temp"></span><span class="sub-temp sub-temp-three"></span></td>
+            <td class="col5"><span></span></td>
+          </tr>
+        </tbody>
+      </table>
+      <table id="table"></table>
+    </div>
+  </section>
+</div>
+<!-- content close -->
+
+            
+            <!-- footer begin -->
+            <footer class="footer-light mt-5">
+              <div class="container">
+                  <div class="row mt-5">
+          <div class="col-lg-3">
+                          <div class="widget text-centre">
+                              <a href="https://zoksh.com/"><img alt="Zoksh" height="32" class="logo" src="https://zoksh.com/images/zoksh-logo.png"></a>
+                              <p>Crypto Payments Solution</p>
+                          </div>
+                      </div>
+                      <div class="col-lg-2">
+                          <div class="widget">
+                              <h5>Blockchains we support</h5>
+                              <ul>
+                <li><a href="#">Bitcoin</a></li>
+                <li><a href="#">Ethereum</a></li>
+                                  <li><a href="#">Litecoin</a></li>
+                <li><a href="#">Solana</a></li>
+                <li><a href="#">Binance</a></li>
+                                  <li><a href="#">ICP</a></li>
+                <li><a href="#">Polygon</a></li>
+                                  <li><a href="#">Bitcoin Cash</a></li>
+                                  <li><a href="#">Dogecoin</a></li>
+                              </ul> 
+                         </div>
+                      </div>
+                      <div class="col-lg-2">
+                          <div class="widget">
+                              <h5>&nbsp;</h5>
+                              <ul>
+                                  <li><a href="#">Tron</a></li>
+                                  <li><a href="#">OKC</a></li>
+                <li><a href="#">Avalanche</a></li>
+                <li><a href="#">Near</a></li>
+                <li><a href="#">Moonbeam</a></li>
+                <li><a href="#">Aurora</a></li>
+                <li><a href="#">Celo</a></li>
+                                  <li><a href="#">RSK</a></li>
+                                  <li><a href="#">Hedera</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="col-lg-2">
+                          <div class="widget">
+                              <h5>Pages</h5>
+                              <ul>
+                                <li><a href="https://zoksh.com/about.html">About Us</a></li>
+                                <li><a href="https://zoksh.com/roadmap.html">Roadmap</a></li>
+                                <li><a href="https://zoksh.com/pairs.html">Supported Pairs</a></li>
+                                <li><a href="https://zoksh.com/referral.html">Referral</a></li>
+                                <li><a href="https://zoksh.com/media.html">Media</a></li>
+                                <li><a href="https://zoksh.com/faqs.html">FAQs</a></li>
+                                  <li><a href="#">Blog</a></li>
+                                  <li><a href="#">Careers</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="col-lg-3">
+                          <div class="widget">
+                              <h5>Newsletter</h5>
+                              <p>Signup for our newsletter to get the latest news, updates and special offers in your inbox.</p>
+                              <!-- Begin Mailchimp Signup Form -->
+                              <div id="mc_embed_signup">
+                                  <form action="https://zoksh.us21.list-manage.com/subscribe/post?u=70ff6c1f7e049d63cb11ab43d&amp;id=10cd4f056b&amp;f_id=00b4b3e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                      <div id="mc_embed_signup_scroll">
+                                          <div class="mc-field-group">
+                                            <label for="mce-EMAIL">Email Address</label>
+                                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
+                                            <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+                                          </div>
+                                        <div id="mce-responses" class="clear foot">
+                                          <div class="response" id="mce-error-response" style="display:none"></div>
+                                          <div class="response" id="mce-success-response" style="display:none"></div>
+                                        </div>
+                                          <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                              <input type="text" name="b_70ff6c1f7e049d63cb11ab43d_10cd4f056b" tabindex="-1" value="">
+                                          </div>
+                                          <div class="optionalParent">
+                                              <div class="clear foot" >
+                                                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn-custom">
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </form>
+                              </div>
+                              <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+                              <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                              <small>Your email is safe with us. We don't spam.</small>
+                              <!--End mc_embed_signup-->
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-4 text-left mb-sm-30">
+                          <div class="mt10">&copy; Copyright 2023 - Zoksh Pay</div>
+                      </div>
+                      <div class="col-md-4 text-center mb-sm-30">
+                          <div class="mt10">
+                            <a href="https://zoksh.com/terms.html">Terms & Conditions</a> |
+                            <a href="https://zoksh.com/privacy.html">Privacy Policy</a> |
+                            <a href="https://zoksh.com/aml.html">AML</a>
+                          </div>
+                      </div>
+                      <div class="col-md-4 text-md-right text-sm-left">
+                          <div class="social-icons big float-right" style="float: right;">
+                              <a href="https://twitter.com/zokshpay/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                              <a href="https://www.linkedin.com/company/zokshpay" target="_blank"><i class="fab fa-linkedin"></i></a>
+                              <a href="https://www.youtube.com/@zoksh" target="_blank"><i class="fab fa-youtube"></i></a>
+                              <a href="https://t.me/ZokshPay" target="_blank"><i class="fab fa-telegram"></i></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </footer>
+          <!-- footer close -->            
+          
+          <div id="preloader">
+              <div class="spinner">
+                  <div class="bounce1"></div>
+                  <div class="bounce2"></div>
+                  <div class="bounce3"></div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Javascript Files ================================================== -->
+      <script src="https://zoksh.com/js/jquery.min.js"></script>
+
+      <script src="https://kit.fontawesome.com/b640a104bd.js" crossorigin="anonymous"></script>
+      <script src="https://zoksh.com/js/bootstrap.min.js"></script>
+      <script src="https://zoksh.com/js/wow.min.js"></script>
+      <script src="https://zoksh.com/js/easing.js"></script>
+      <script src="https://zoksh.com/js/owl.carousel.js"></script>
+      <script src="https://zoksh.com/js/validation.js"></script>
+      <script src="https://zoksh.com/js/enquire.min.js"></script>
+      <script src="https://zoksh.com/js/typed.js"></script>
+      <script src="https://zoksh.com/js/jquery.magnific-popup.min.js"></script>
+      <script src="https://zoksh.com/js/jquery.stellar.min.js"></script>
+      <script src="https://zoksh.com/js/jquery.isotope.min.js"></script>
+      <script src="https://zoksh.com/js/jquery.plugin.js"></script>
+      <script src="https://zoksh.com/js/jquery.countTo.js"></script>
+      <script src="https://zoksh.com/js/jquery.countdown.js"></script>
+      <script src="https://zoksh.com/js/designesia.js"></script>
+
+      <script>
+      $(".grey-img").hover(function () {$(this).toggleClass("greyscale-img");});
+      $(function () { 
+          $(window).scroll(function () {
+              if ($(this).scrollTop() > 5) { 
+                  $('.header_nav').attr('src','https://zoksh.com/images/zoksh-logo.png');
+              }
+              if ($(this).scrollTop() < 5) { 
+                  $('.header_nav').attr('src','https://zoksh.com/images/zoksh-logo-light.png');
+              }
+          })
+      });
+      </script>
+
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-EXSW872NL8"></script>
+      <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-EXSW872NL8');
+      </script>
+  </body>
+</html>
+
+<script>
+      var cryptoMappings = "";
+      const payment_method_mappings = {
+        credit_debit_card: {label: "Credit/Debit card",icon: "assets/ramp/methods/pm_credit_debit_card.png"},
+        apple_pay: {label: "Apple Pay",icon: "assets/ramp/methods/pm_apple_pay.png"},
+        google_pay: {label: "Google Pay",icon: "assets/ramp/methods/pm_google_pay.svg"},
+        neft_bank_transfer: {label: "UPI/IMPS/NEFT Bank Transfer",icon: "assets/ramp/methods/pm_bank_transfer.svg"},
+        upi: {label: "UPI",icon: "assets/ramp/methods/pm_upi.svg"},
+        gbp_bank_transfer: {label: "Faster Payment Bank Transfer",icon: "assets/ramp/methods/pm_faster_payments.svg"},
+        open_banking: {label: "Open Banking",icon: "assets/ramp/methods/pm_open_banking.svg"},
+        sepa_bank_transfer: {label: "SEPA Bank Transfer",icon: "assets/ramp/methods/pm_sepa_bank_transfer.jpg"},
+        mobikwik: {label: "Mobikwik",icon: "assets/ramp/methods/pm_mobikwik.svg"},
+        bangkok_bank_mobile: {label: "Bangkok Bank Mobile",icon: "assets/ramp/methods/pm_bangkok_bank_mobile.png"},
+        bangkok_bank_ipay: {label: "Bangkok Bank iPay",icon: "assets/ramp/methods/pm_bangkok_bank_ipay.svg"},
+        scb_bank_mobile: {label: "SCB Mobile Banking",icon: "assets/ramp/methods/pm_scb.png"},
+        scb_easy_pay: {label: "SCB Easy Pay",icon: "assets/ramp/methods/pm_scb_easy.svg"},
+        astropay: {label: "Astropay",icon: "assets/ramp/methods/pm_astropay.png"},
+        pix: { label: "Pix",icon: "assets/ramp/methods/pm_pix_banco.svg"},
+        paymaya: {label: "Maya",icon: "assets/ramp/methods/pm_xendit_pay_maya.svg"},
+        bpi: {label: "BPI",icon: "assets/ramp/methods/pm_xendit_ba_bpi.svg"},
+        ubp: {label: "Union Bank",icon: "assets/ramp/methods/pm_xendit_ba_union_bank.svg"},
+        grabpay: {label: "GrabPay",icon: "assets/ramp/methods/pm_xendit_grab_pay_icon.svg"},
+        shopeepay: {label: "ShopeePay",icon: "assets/ramp/methods/pm_xendit_shopee_pay_icon.svg"},
+        gcash: {label: "Gcash",icon: "assets/ramp/methods/pm_xendit_g_cash.svg"},
+        pse: {label: "PSE",icon: "assets/ramp/methods/pm_nuvei_pse.svg"},
+        poli: { label: "Poli",icon: "assets/ramp/methods/pm_poli.png"},
+        ideal: {label: "iDEAL",icon: "assets/ramp/methods/pm_ideal.png"},
+        interac: {label: "Interac e-Transfer",icon: "assets/ramp/methods/pm_interac.png"},
+        payid: {label: "PayID",icon: "assets/ramp/methods/pm_monoovapayid.png"},
+        turkish_bank: {label: "Turkish Bank",icon: "assets/ramp/methods/pm_open_banking.svg"},
+        instant_bank: {label: "Instant Bank",icon: "assets/ramp/methods/pm_open_banking.svg"},
+        wire_transfer: {label: "US Wire Transfer",icon: "assets/ramp/methods/pm_open_banking.svg"}
+      };
+
+      const filteredResult = [];
+      const collapseResult = [];
+      var fiats = null;
+      function capitalizeFirstLetter(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+      }
+      function groupBy(list, keyGetter) {
+        const map = new Map();
+        list.forEach((item) => {
+          const key = keyGetter(item);
+          const collection = map.get(key);
+          if (!collection) {map.set(key, [item]);} 
+          else {collection.push(item);}
+        });
+        return map;
+      }
+      function handleFiatChange() {
+        const temp = filteredResult;
+        const currValue = document.getElementById("fiat").value;
+        $("#table").empty();
+        var filteredMappings = ""
+          + "<thead><tr>"
+          + "<th> Fiat Currency </th>"
+          + "<th> Crypto Currency </th>"
+          + "<th> Network </th>"
+          + "<th> Payment Method </th>"
+          + "</tr></thead>";
+
+        const filteredData = temp.filter((entry) => {
+          return (
+            entry.fiat?.toLowerCase().includes(currValue.toLowerCase()) ||
+            entry.token?.toLowerCase().includes(currValue.toLowerCase()) ||
+            entry.network?.toLowerCase().includes(currValue.toLowerCase())
+          );
+        });
+
+        for(const key2 in fiats) {
+          const grouped = groupBy(filteredData, (result) => result.fiat);
+          if(grouped.get(fiats[key2].symbol)) {
+            filteredMappings += "<tbody class='labels'>"
+              + "<tr>"
+              + "<td colspan='4' class='table-row'>"
+              + "<i class='fa fa-chevron-right arrow'></i>"
+              + "<label class='fiat-name' for=" + fiats[key2].symbol + ">" + fiats[key2].symbol + "</label>"
+              + "<input type='checkbox' name=" + fiats[key2].symbol + " id=" + fiats[key2].symbol + " data-toggle='toggle'>"
+              + "</td>"
+              + "</tr>"
+              + "</tbody>"
+              + "<tbody class='hide'>";
+            grouped.get(fiats[key2].symbol).map((token) => {
+              filteredMappings += "<tr>"
+                + "<td>" + token.fiat + "</td>"
+                + "<td>" + token.token + "</td>"
+                + "<td>" + token.network + "</td>"
+                + "<td>" + token.payment_method.replaceAll(",", ", ") + "</td>"
+                + "</tr>";
+            });
+            filteredMappings += "</tbody>";
+          }
+        }
+        $("#table").append(filteredMappings);
+        $(".hide").css("display", "table-row-group");
+        if (currValue.length === 0) { $(".hide").css("display", "none"); }
+        $(".table-row").click(function () { $(this).children("input").trigger("change"); });
+        $('[data-toggle="toggle"]').change(function () {
+          $(this).parents().next(".hide").toggle();
+          $(this).siblings("i").toggleClass("fa-chevron-up fa-chevron-right");
+        });
+      }
+
+      $(".table-row").click(function () {
+        $(this).children("input").trigger("change");
+      });
+      /*$.ajax({
+          type: "POST",
+          url: "https://pay.zoksh.com/api/ramps/v2/published/mappings",
+          data: {
+            action: "zoksh_api_proxy",
+            action_url: "/api/ramps/v2/published/mappings",
+            is_get: true,
+            is_payment_proxy: true,
+          },
+          dataType: "json",
+          success: function (data){*/
+          $.getJSON("./data/mappings.json", function(data) {
+            //console.log(data);
+            $("#skeleton-loading").empty();
+            fiats = data.mappings.fiats;
+            for(const key in fiats){
+              const providers = fiats[key].providers;
+              const tokens = fiats[key].tokens;
+              const payment_method = [];
+              for(const key2 in providers){
+                if(providers[key2].paymentOptions.length > 0) {
+                  const providerPaymentOptions = providers[key2].paymentOptions;
+                  providerPaymentOptions.map((po) => {
+                    for (const maps in payment_method_mappings) {
+                      if (po.id === maps) {
+                        payment_method.push(payment_method_mappings[maps].label);
+                      }
+                    }
+                  });
+                }
+              }
+              tokens.map((token) => {
+                filteredResult.push({
+                  fiat: fiats[key].symbol,
+                  token: token.split("_")[0].toUpperCase(),
+                  network: capitalizeFirstLetter(token.split("_")[1]),
+                  payment_method: [...new Set(payment_method)].join(),
+                });
+              });
+            }
+            cryptoMappings = "<thead><tr>"
+              + "<th> Fiat Currency </th>"
+              + "<th> Crypto Currency </th>"
+              + "<th> Network </th>"
+              + "<th> Payment Method </th>"
+              + "</tr></thead>";
+            for (const key2 in fiats) {
+              const grouped = groupBy(filteredResult, (result) => result.fiat);
+              if (grouped.get(fiats[key2].symbol)) {
+                cryptoMappings += "<tbody class='labels'>"
+                  + "<tr>"
+                  + "<td colspan='4' class='table-row'>"
+                  + "<i class='fa fa-chevron-right arrow'></i> "
+                  + "<label class='fiat-name' for="
+                  + fiats[key2].symbol + ">" + fiats[key2].symbol + "</label>"
+                  + "<input type='checkbox' name=" + fiats[key2].symbol + " id=" + fiats[key2].symbol + " data-toggle='toggle'>"
+                  + "</td>"
+                  + "</tr>"
+                  + "</tbody>"
+                  + "<tbody class='hide'>";
+                grouped.get(fiats[key2].symbol).map((token) => {
+                  cryptoMappings += "<tr>"
+                    + "<td>" + token.fiat + "</td>"
+                    + "<td>" + token.token + "</td>"
+                    + "<td>" + token.network + "</td>"
+                    + "<td>" + token.payment_method.replaceAll(",", ", ") + "</td>"
+                    + "</tr>";
+                });
+                cryptoMappings += "</tbody>";
+              }
+            }
+            $("#table").append(cryptoMappings);
+            $(".table-row").click(function () {
+              $(this).children("input").trigger("change");
+            });
+            $('[data-toggle="toggle"]').change(function () {
+              $(this).parents().next(".hide").toggle();
+              $(this).siblings("i").toggleClass("fa-chevron-up fa-chevron-right");
+            }/**/);
+          });
+        /*})
+        .fail(function (err) {console.log('failed');console.log(err);})
+        .always(function () {});*/
+</script>
