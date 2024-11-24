@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <script src='https://terminal.jup.ag/main-v3.js' data-preload></script>
+</head>
+<body>
+    <div id="integrated-terminal" style="width: 400px; height: 568px;"></div>
+    <script>
+        window.Jupiter.init({
+          displayMode: "integrated",
+          integratedTargetId: "integrated-terminal",
+          endpoint: "https://api.mainnet-beta.solana.com",
+          strictTokenList: false,
+          formProps: {
+            fixedOutputMint: true,
+            swapMode: "ExactOut",
+            fixedAmount: true,
+            initiaInputMint: "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+            initialOutputMint: "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          },
+          useUserSlippage: false,
+        });
+    </script>
+</body>
+</html>
+<!--
+{
+  "userPublicKey": "5zaK2vHP4VPB9xecYvktM7syPcuG17EiosUEkujQPCWn",
+  "wrapAndUnwrapSol": true,
+  "useSharedAccounts": true,
+  "feeAccount": "5zaK2vHP4VPB9xecYvktM7syPcuG17EiosUEkujQPCWn",
+  "trackingAccount": "string",
+  "computeUnitPriceMicroLamports": 0,
+  "prioritizationFeeLamports": 0,
+  "asLegacyTransaction": false,
+  "useTokenLedger": false,
+  "destinationTokenAccount": "5zaK2vHP4VPB9xecYvktM7syPcuG17EiosUEkujQPCWn",
+  "dynamicComputeUnitLimit": true,
+  "skipUserAccountsRpcCalls": true,
+  "dynamicSlippage": {
+    "minBps": 0,
+    "maxBps": 0
+  },
+  "quoteResponse": {
+    "inputMint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "outAmount": "100",
+    "swapMode": "ExactOut",
+    "slippageBps": 0,
+    "platformFee": {
+      "amount": "0",
+      "feeBps": 0
+    },
+    "contextSlot": 0,
+    "timeTaken": 0
+  }
+}
+-->

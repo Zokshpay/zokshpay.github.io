@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+<meta name="title" content="tets page">
+<meta name="description" content="test">
+<meta name="keywords" content="test">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="test">
+<meta name="twitter:site" content="@8862067a">
+<meta name="twitter:description" content="test">
+<meta name="twitter:image" content="https://zoksh.com/images/zoksh-logo-light.png">
+</head>
+<body>
+    <div id="twitter-widget-0">
+    test
+    </div>
+</body>
+<script>
+function createTweetEmbed(tweetUrl) {
+  const embedContainer = document.createElement('div');
+  embedContainer.id = 'twitter-widget-0';
+  document.body.appendChild(embedContainer);
+  const script = document.createElement('script');
+  script.src = `https://platform.x.com/widgets.js?tweetId=1858971220085195094&data-api-key=dG84cW9FMVVibnREZVU2Zm5NMVQ6MTpjaQ`;
+  script.async = true;
+  document.body.appendChild(script);
+}
+//4yS8tYPRpBeQ_Zg_8BkEhbNxxApCRvWxI1kuuQX3Onhe2ZbFIc
+createTweetEmbed('https://x.com/8862067a/status/1858971220085195094');
+</script>
+</html>
