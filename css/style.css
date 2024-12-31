@@ -877,7 +877,6 @@ header.s2 #mainmenu > li > a{
 }
 header.header-mobile {
 	position:absolute;
-	background:#fff;
 	top:0;
 	height:90px;
 }

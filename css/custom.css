@@ -428,7 +428,7 @@
 #mc-embedded-subscribe {margin: 0; border-radius: 5px !important; border-width: 0 !important;}
 
 a.btn-custom, a.btn-custom:active, a.btn-custom:focus, a.btn-custom:visited, .btn-custom { -webkit-border-radius: 5px; border-width: 0px; background-color: #fff; }
-a.btn-custom.long { padding: 12px 50px; }
+a.btn-custom.long { padding: 12px 30px; }
 a.button-large { padding: 1rem 1.5rem !important; font-size: 1.2rem !important; }
 a.btn-light {background-color: #fff; color: #060B30 !important; }
 .greyscale-img {
